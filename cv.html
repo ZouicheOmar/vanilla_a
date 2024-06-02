@@ -4,28 +4,120 @@
 		<title> ozdocs </title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="color-scheme" content="light dark">
-		<link href="styles.css" type="text/css" rel="stylesheet" >
+		<!-- <meta name="color-scheme" content="light dark"> -->
+		<link href="cv.css" type="text/css" rel="stylesheet" >
 	</head>
 	<body>
 		<nav>
-			<a href="./index.html"> Home </a>
-			<a href="./about.html"> About </a> 
+			<div>
+				<small> Page web de </small>
+				<h4> Zouiche Omar </h4>
+			</div>
+			<div>
+			<a href="./index.html"> Accueil </a>
 			<a href="./cv.html"> cv </a>
+			<a href="mailto:zouiche.omar@gmail.com"> mail </a>
+				<!-- <a href="./browsing.html"> browsing </a> -->
+			</div>
 		</nav>
 		<hr >
-		<h1> CV </h1>
-		<p>
-			During nearly a decade at Amazon, I worked on a wide variety of projects including a petabyte-scale
-			customer analytics cluster, an airport for drones, computer vision labeling tools, an open-source smart
-			home specification, and even fitness watch firmware. None of these projects were inherently rooted in
-			client-side web dynamism, but each of them had some facet that eventually involved JavaScript, either
-			by necessity or by virtue of it being the best tool for the job.
-		</p>
-		<p id="text"> What is the equivalent of low level programming on the web </p>
+		<main>
+			<aside>
+				<ul>
+					<li> <a> experience professionnelle </a> </li>
+				<li> <a> profil / à propos </a> </li>
+					<li> <a> education </a> </li>
+					<li> <a> projets </a> </li>
+					<li> <a> competence </a> </li>
+				<li> <a> centres d'interets </a> </li>
+				</ul>
+			</aside>
+			<div class="cv">
+			<div class="cv-content">
+				<header>
+					<h1> Curriculum Vitae </h1>
+				</header>
+
+				<div class="section"> 
+					<h3> Profil et mon parcous en deux mots</h3>
+					<p> Je décris un peu mon parcours etc etc .. </p>
+				</div>
+				<div class="section"> 
+					<h3> Diplômes </h3>
+					<ul>
+							<li> <span class="li-title"> Bachelor Développement d'Applications Web </span> <br/>
+							<small> HETIC </small>
+							</li>
+							<li>
+								<b> Master 1 modélisation et Analyse Numérique </b>
+							<span> Université de Montpellier </span>
+							</li>
+							<li> <b> Licence de Mathématiques Générélas </b> <span> Universié de Montpellier </span>
+							</li>
+							<li> <b> Classe préparatoires aux Grandes écoles TSI </b>
+								<span> Lycée Léonce Vieljeux </span>
+							</li>
+
+					</ul>
+				</div>
+				<div class="section"> 
+					<h3> Projets </h3>
+					<ul>
+						<li>
+							<b> Application sur Navigateur Web | MessBoard </b>
+								<br>
+								<span> Architecture : </span>
+								<br>
+								<span> Technologies : </span>
+								<p> Developpement d'une application permettant la création de tableaux où l'on peut coller des cartes contenant du text, markdown, du code ou des images. Application Serverless, appels à des fonctions lambas d'AWS, base de données document, objets et images stockées dans un bucket S3. </p>
+								<p>
+									stack : React, Shadcn/ui, TailwindCSS, Framer Motion, AWS Lambda, DynamoDB.
+								</p>
+
+						</li>
+							<li>
+								<b> Application Web : Aboard </b>
+								<p> Conception et développement d'une application web entièreement fonctionnelle pour l'assocation Erasmus Internationals Network. Conception détaillée des composants et de pages a contenu dynamique. Développement suivant la méthode "Mobile First". Mise en palce Serverless de la fonctionnalité d'authentification, de la gestion de la base de données, des operations CRUD et de paiemenet. </p>
+							</li>
+							<li>
+								<b> Optimisation et Analayse de données | Projets et rapports d'études. </b>
+								<p> Implémentation de modèles physiques. Collecte, traitement et analyse de données, Minisation de fonctions, optimisation de performance, Visualisation de résultats. </p>
+								<p> Stack : Python (Numpy, Panda)
+								</p>
+							</li>
+
+					</ul>
+				</div>
+				<div class="section"> 
+					<h3> Competences </h3>
+					<ul class="sub-list">
+					<h4> Technique </h4>
+					<li> Languages de programmations </li>
+					<li> Architectures </li>
+					<li> Environnement </li>
+					<ul class="sub-list">
+					</ul>
+					<h4> Communications </h4>
+					<li> Dynamisme </li>
+					<li> Collaboratif </li>
+					<li> Esprit d'équipe </li>
+					<ul>
+				</div>
+
+				<div>
+					<h3> Centres d'intérets </h3>
+					<p> Petites list de centres d'intérêts </p>
+				</div>
+
+			</div>
+			</div>
+		</main>
+
 		<hr>
 		<footer>
-			May 2024
+			<small>
+			Last Updated MAY 2024 | OZDOCS.FR
+			</small>
 		</footer>
 	</body>
 </html>

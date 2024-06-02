@@ -1,7 +1,86 @@
 body {
-	max-width : 40rem;
+	font : sans-serif;
+	//color : #007f80;
 }
+
+nav {
+	//max-width : 40rem;
+	max-width : 75ch;
+	margin : 8px auto 8px auto;
+	display : flex;
+	justify-content : space-between;
+	align-items : center;
+	color : black;
+}
+
+
+nav > div > a {
+	padding: 0 5px 0 5px;
+	text-underline-offset : 8px;
+}
+
+nav > div > h4 {
+	padding : 0 0 0 0;
+	margin : 0;
+	font-weight : 500;
+	font-size : 20px;
+}
+
+footer {
+	max-width : 40rem;
+	margin : 8px auto 0 auto;
+	color :black;
+	display : flex;
+	justify-content : center;
+}
+
+hr {
+	//max-width : 40rem;
+	max-width : 75ch;
+	margin : 0 auto 0 auto;
+}
+
+.content {
+	//max-width : 40rem;
+	max-width : 75ch;
+	margin : 0 auto 0 auto;
+	display : flex;
+	flex-direction : column;
+}
+
+.content-paragraphe {
+	flex-grow : 1;
+}
+
+hr {
+	width : 100%;
+}
+
 a {
 	padding: 0 5px 0 5px;
 }
 
+h1 {
+	width : 100%;
+}
+
+h2 {
+	text-decoration : underline dashed;
+	text-underline-offset : 7px;
+}
+
+span {
+line-height : 10px;
+font-family: monospace;
+}
+
+#menu-item{
+padding : 2px 0 2px 0;
+display : flex;
+flex-direction : column;
+}
+
+blockquote {
+	border-left : solid 1px;
+	padding-left : 1rem;
+}
