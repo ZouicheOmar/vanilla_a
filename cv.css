@@ -2,6 +2,10 @@ main {
 	//display : flex;
 }
 
+body {
+	font: 1em sans-serif;
+}
+
 nav {
 	max-width : 75ch;
 	margin : 8px auto 8px auto;
