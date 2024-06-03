@@ -1,0 +1,19 @@
+nav {
+	max-width : 75ch;
+	margin : 8px auto 8px auto;
+	display : flex;
+	justify-content : space-between;
+	align-items : center;
+}
+
+nav > div > a {
+	padding: 0 5px 0 5px;
+	text-underline-offset : 8px;
+}
+
+nav > div > h4 {
+	padding : 0 0 0 0;
+	margin : 0;
+	font-weight : 500;
+	font-size : 1.3em;
+}

@@ -4,8 +4,8 @@
 		<title> ozdocs </title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- <meta name="color-scheme" content="light dark"> -->
 		<link href="cv.css" type="text/css" rel="stylesheet" >
+		<link href="nav.css" type="text/css" rel="stylesheet" >
 	</head>
 	<body>
 		<nav>
@@ -14,109 +14,127 @@
 				<h4> Zouiche Omar </h4>
 			</div>
 			<div>
-			<a href="./index.html"> Accueil </a>
-			<a href="./cv.html"> cv </a>
-			<a href="mailto:zouiche.omar@gmail.com"> mail </a>
+				<a href="./index.html"> Accueil </a>
+				<a href="./cv.html"> cv </a>
+				<a href="mailto:zouiche.omar@gmail.com"> mail </a>
 				<!-- <a href="./browsing.html"> browsing </a> -->
 			</div>
 		</nav>
 		<hr >
 		<main>
-			<aside>
+					<header>
+						<h1> Curriculum Vitae </h1>
+					</header>
+
+					<div class="section"> 
+			<h3> Profil et mon parcous en deux mots</h3>
 				<ul>
-					<li> <a> experience professionnelle </a> </li>
-				<li> <a> profil / à propos </a> </li>
-					<li> <a> education </a> </li>
-					<li> <a> projets </a> </li>
-					<li> <a> competence </a> </li>
-				<li> <a> centres d'interets </a> </li>
+					<p>
+						De formation initiale mathématique, je me suis orienté vers la programmation durant mon master 1, en autodidact.
+					</p>
+					<p>
+					Mon approche est pratique, mais est de loin à négliger la théorie. J'étudie depuis les technologies du web
+					<br />
+					Je me concentre sur les technologies standards et qui permettent des "transferable skills", en étudiant des ouvrages classiques, les nombreuses ressources sur le net, les documentations etc.. :
+					</p>
+					<li>
+						Javascript : Base de la plupart des framework du frontend, notamment Typescript, qui permet un meilleur contrôle sur les programmes.
+					</li>
+					<li>
+						C : Relativement bas niveau, permet d'utiliser des concepts fondamentaux de programmation, et une meilleure compréhension des du hardware.
+					</li>
+					<li> HTML, CSS, une base de données relationnelle comme SQL. Des technologies backend comme Node.js, des framework comme React et Express.js.</li>
+					<p>
+						J'ai cumulé une expérience dans la programmation du web en étant bénévole, notammenet sur en réalisant des projets personnels.
+					</p>
 				</ul>
-			</aside>
-			<div class="cv">
-			<div class="cv-content">
-				<header>
-					<h1> Curriculum Vitae </h1>
-				</header>
+			</div>
+			<div class="section"> 
+				<h3> Diplômes </h3>
+				<ul>
+					<!--
+<li> <span class="li-title"> Bachelor Développement d'Applications Web </span>
+<small> <i> Studi CFA </i> | <i>HETIC</i> 2024-présent </small>
+</li>
+					-->
+					<li>
+						<span class="li-title"> Master 1 modélisation et Analyse Numérique </span>
+						<span> <i>Université de Montpellier </i> 2021-2022</span>
+					</li>
+					<li> <span class="li-title"> Licence de Mathématiques Générélas </span> <small> <i>Universié de Montpellier </i> 2018-2021</small>
+					</li>
+					<li> <span class="li-title"> Classe préparatoires aux Grandes écoles TSI </span>
+						<small> <i>Lycée Léonce Vieljeux</i> | <i> U. La Rochelle </i> 2017-2018 </small>
+					</li>
 
-				<div class="section"> 
-					<h3> Profil et mon parcous en deux mots</h3>
-					<p> Je décris un peu mon parcours etc etc .. </p>
-				</div>
-				<div class="section"> 
-					<h3> Diplômes </h3>
-					<ul>
-							<li> <span class="li-title"> Bachelor Développement d'Applications Web </span> <br/>
-							<small> HETIC </small>
-							</li>
-							<li>
-								<b> Master 1 modélisation et Analyse Numérique </b>
-							<span> Université de Montpellier </span>
-							</li>
-							<li> <b> Licence de Mathématiques Générélas </b> <span> Universié de Montpellier </span>
-							</li>
-							<li> <b> Classe préparatoires aux Grandes écoles TSI </b>
-								<span> Lycée Léonce Vieljeux </span>
-							</li>
-
-					</ul>
-				</div>
-				<div class="section"> 
-					<h3> Projets </h3>
-					<ul>
-						<li>
-							<b> Application sur Navigateur Web | MessBoard </b>
-								<br>
-								<span> Architecture : </span>
-								<br>
-								<span> Technologies : </span>
-								<p> Developpement d'une application permettant la création de tableaux où l'on peut coller des cartes contenant du text, markdown, du code ou des images. Application Serverless, appels à des fonctions lambas d'AWS, base de données document, objets et images stockées dans un bucket S3. </p>
-								<p>
-									stack : React, Shadcn/ui, TailwindCSS, Framer Motion, AWS Lambda, DynamoDB.
-								</p>
+				</ul>
+			</div>
+			<div class="section"> 
+				<h3> Projets </h3>
+				<ul>
+					<li>
+						<span class="li-title">SPA | MessBoard </span>
+						<p class="li-text"> Developpement d'une application web permettant la création de tableaux où l'on peut coller des cartes contenant du text, markdown, du code ou des images. Application Serverless, appels à des fonctions lambas d'AWS, base de données document, objets et images stockées dans un bucket S3. 
+							<br />
+							Technologies : Next.js, Shadcn/ui, TailwindCSS, AWS : DynamoDB, S3 Buckets.
+						</p>
 
 						</li>
-							<li>
-								<b> Application Web : Aboard </b>
-								<p> Conception et développement d'une application web entièreement fonctionnelle pour l'assocation Erasmus Internationals Network. Conception détaillée des composants et de pages a contenu dynamique. Développement suivant la méthode "Mobile First". Mise en palce Serverless de la fonctionnalité d'authentification, de la gestion de la base de données, des operations CRUD et de paiemenet. </p>
-							</li>
-							<li>
-								<b> Optimisation et Analayse de données | Projets et rapports d'études. </b>
-								<p> Implémentation de modèles physiques. Collecte, traitement et analyse de données, Minisation de fonctions, optimisation de performance, Visualisation de résultats. </p>
-								<p> Stack : Python (Numpy, Panda)
-								</p>
-							</li>
+						<li>
+							<span class="li-title"> SPA | Aboard </span>
+							<p class="li-text">
+								Développement d'une application web pour l'assocation Erasmus Internationals Network. Conception des composants et pages suivant l'approche "Mobile First". Serverless : la fonctionnalité d'authentification, de la gestion de la base de données, des operations CRUD et de paiements.
+								<br />
+								Technologies : React, Vite, TailwindCSS, Supabase, Stripe.
+							</p>
+						</li>
+						<li>
+							<span class="li-title"> Autres </span>
+							<p class="li-text"> Implémentation de modèles physiques. Collecte, traitement et analyse de données, Minisation de fonctions, optimisation de performance, Visualisation de résultats.
+								<br />
+								Technologies : C, Python.
+							</p>
+						</li>
 
 					</ul>
 				</div>
 				<div class="section"> 
-					<h3> Competences </h3>
-					<ul class="sub-list">
-					<h4> Technique </h4>
-					<li> Languages de programmations </li>
-					<li> Architectures </li>
-					<li> Environnement </li>
-					<ul class="sub-list">
-					</ul>
-					<h4> Communications </h4>
-					<li> Dynamisme </li>
-					<li> Collaboratif </li>
-					<li> Esprit d'équipe </li>
+					<h3> Compétences </h3>
 					<ul>
+						<span class="li-title"> Technique </span>
+						<p class="li-text"> Languages de Programmation : Typescript/Javascript, C, Python.
+							<br/> Framework / Librairies : Node.js, Express.js, React, Next.js.
+							<br/> Environnement / Outils : GNU/Linux, Git, Bash </p>
+					</ul>
+					<ul>
+						<span class="li-title"> Langues </span>
+						<p class="li-text"> Anglais : Courant / Bilingue </p>
+					</ul>
 				</div>
 
-				<div>
-					<h3> Centres d'intérets </h3>
-					<p> Petites list de centres d'intérêts </p>
-				</div>
+			<div class="section">
+				<h3> Autodidact </h3>
+				<ul>
+					<span class="li-title"> Actuellement </span> j'étudie les ouvrages suivants : 
+					<li> Professionnal Javascript for Web Developpers </li>
+					<li> Data Structures Using C </li>
+					<li> The C Programming Language </li>
+				</ul>
+			</div>
 
+			<div class="section">
+				<h3> Alternance </h3>
+				<ul>
+					<p class="li-text"> Dans le cadre d'une formation en Développement d'Application Web, je cherche activement une alternance. </p>
+				</ul>
 			</div>
-			</div>
+
 		</main>
 
 		<hr>
 		<footer>
 			<small>
-			Last Updated MAY 2024 | OZDOCS.FR
+			Mise à jour en Juin 2024 | ozdocs.fr
 			</small>
 		</footer>
 	</body>
